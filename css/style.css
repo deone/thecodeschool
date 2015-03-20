@@ -436,13 +436,13 @@ hr {
   margin-bottom: 0;
   font-size: 140%;
 }
-.course-header div {
+.course-header .duration-cost span {
+  font-weight: bold;
+  font-size: 73%;
+}
+.course-header .title, .course-header .duration-cost {
   height: 50px;
   padding-top: 14px;
-}
-.course-header div span {
-  font-weight: bold;
-  font-size: 90%;
 }
 .course-header .title {
   background-color: #fff;
@@ -450,6 +450,8 @@ hr {
   border-bottom-left-radius: 5px;
 }
 .course-header .duration-cost {
+  padding-left: 0.2em;
+  padding-right: 0;
   background-color: #15253C;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
